@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+            <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="calculator">
+        <div id="display">
+            <h3 id="number"></h3>
+        </div>
+        <div class="grid">
+            <button style=" background:none; visibility: hidden;"></button>
+            <button class="color1" onclick="clearAll()">AC</button>
+            <button class="color1" onclick="de()">DEL</button>
+            <!-- <button class="color1" onclick="period()">.</button>  -->
+            <button class="color2" onclick="devide()">÷</button>
+            <button onclick="nr7()">7</button>
+            <button onclick="nr8()">8</button>
+            <button onclick="nr9()">9</button>
+            <button class="color2" onclick="times()">×</button>
+            <button onclick="nr4()">4</button>
+            <button onclick="nr5()">5</button>
+            <button onclick="nr6()">6</button>
+            <button class="color2" onclick="minus()">-</button>
+            <button onclick="nr1()">1</button>
+            <button onclick="nr2()">2</button>
+            <button onclick="nr3()">3</button>
+            <button class="color2" onclick="plus()">+</button>
+            <button onclick="nr00()">00</button>
+            <button onclick="nr0()">0</button>
+            <button onclick="period()">.</button>
+            <button id="equal" class="color2" onclick="equal()">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
